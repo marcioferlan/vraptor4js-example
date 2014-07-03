@@ -1,13 +1,13 @@
 # VRaptor4js Example
 
-This project contains 2 simple web application to help you test and get started with VRaptor4js plugin (both client-side and server-side).
+This project contains 2 simple web applications (client-side and server-side) to help you test and get started with [VRaptor4js plugin](https://github.com/marcioferlan/vraptor4js-plugin).
 
-Just import it and its modules to your IDE as Maven Projects, add them to your application server or servlet container and start it.
+Just import the project and its modules to your IDE as Maven Projects, add them to your application server or servlet container and start it.
 
 Server-side app
 ---------------
 
-Visit http://localhost:8080/vraptor4js-api
+Visit [http://localhost:8080/vraptor4js-api](http://localhost:8080/vraptor4js-api)
 
 You should see something like this: ```{"string":"It works! You have installed VRaptor4js plugin correctly."}```
 
@@ -16,10 +16,10 @@ You should see something like this: ```{"string":"It works! You have installed V
 Client-side app
 ---------------
 
-Visit http://localhost:8080/vraptor4js-test
+Visit [http://localhost:8080/vraptor4js-test](http://localhost:8080/vraptor4js-test)
 
 You should see a page with options for you to test using either AngularJS or jQuery.
 
 The client app will fetch that message from the server and present it on the page using VRaptor4js API.
 
-> Tested on Tomcat 7 (with Eclipse Kepler for JEE Developers).
+> Tested on Tomcat 7 (using Eclipse Kepler for JEE Developers).
