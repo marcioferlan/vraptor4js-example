@@ -1,18 +1,28 @@
 <!DOCTYPE html>
-<html ng-app="app">
-	<head>
-		<title>VRaptor4js (AngularJS)</title>
-	</head>
-	<body ng-controller="TestCtrl">
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>VRaptor4js (AngularJS)</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" />
+</head>
+<body ng-controller="TestCtrl">
+	<div class="container">
 		<h1>VRaptor4js (AngularJS)</h1>
-		<h3>{{serverMessage}}</h3>
-		<a href="..">Voltar</a>
-		<!-- libs -->
-		<script src="angular.min.js"></script>
-		<!-- components -->
-		<script src="app.js"></script>
-		<script src="controllers.js"></script>
-		<script src="/vraptor4js-api/v4js/lib/angular"></script> <!-- this can be ommitted: angular is the default value -->
-		<script src="/vraptor4js-api/v4js/ctrl/IndexController"></script>
-	</body>
+		<div class="bg-success" style="padding:10px;">
+			<h3> {{serverMessage}} </h3>
+		</div>
+		<br />
+		<a href=".." class="btn btn-danger">&laquo; Go Back</a>
+	</div>
+	
+	<!-- libs -->
+	<script src="angular.min.js"></script>
+	
+	<!-- components -->
+	<script src="app.js"></script>
+	<script src="controllers.js"></script>
+	<script src="/vraptor4js-api/v4js/angular/IndexController"></script>
+</body>
 </html>
